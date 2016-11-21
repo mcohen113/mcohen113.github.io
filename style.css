@@ -1,6 +1,6 @@
 
 body {
-  background: #333;
+  background: #666262;
 }
 
 header {
@@ -19,11 +19,22 @@ h1 {
   font-size: 397%;
 }
 
+h2 {
+  font-size: 140%;
+  font-weight: 50px;
+  margin-left: 36%;
+  line-height: 0px;
+  margin-bottom: 2%;
+  font-family: 'Architects Daughter', cursive;
+
+}
+
 .things {
 
   width: 200px;
   height: 200px;
-  border-color: black;
+  margin-top: -2%;
+  border-color: #211E1E;
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
   border-radius: 100px;
@@ -34,22 +45,69 @@ h1 {
 
   margin-left: 70%;
   margin-top: 30%;
-  background: black;
+  background: #211E1E;
 
 }
 
 #stuff {
-margin-left: 200%;
+margin-left: 260%;
 margin-top: 30%;
 position: relative;
-background: black;
+background: #211E1E;
 }
 
 #contact {
+margin-top: -225%;
+margin-left: 450%;
+background: #211E1E;
+}
 
-margin-top: 20%;
-margin-left: 325%;
-background: black;
+#description {
+  position: relative;
+  margin-top: -5%;
+  margin-right: 25%;
+  margin-left: 25%;
+  font-size: 130%;
+}
+
+#project1 {
+  position: relative;
+  background-color: #778899;
+  border-radius: 10px;
+  text-align: center;
+  overflow: scroll;
+  margin-left: 15%;
+  margin-right: 25%;
+  border: 10px;
+  padding: 10px;
+  margin: 3%;
+
+}
+
+#project2 {
+  position: relative;
+  background-color: #778899;
+  border-radius: 10px;
+  text-align: center;
+  overflow: scroll;
+  margin-left: 15%;
+  margin-right: 25%;
+  border: 10px;
+  padding: 10px;
+  margin: 3%;
+}
+
+#project3 {
+  position: relative;
+  background-color: #778899;
+  border-radius: 10px;
+  text-align: center;
+  overflow: scroll;
+  margin-left: 15%;
+  margin-right: 25%;
+  border: 10px;
+  padding: 10px black;
+  margin: 3%;
 }
 /*.name {
   position: absolute;
