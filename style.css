@@ -39,6 +39,7 @@ h2 {
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
   border-radius: 100px;
+
 }
 
 
@@ -51,14 +52,15 @@ h2 {
 }
 
 #stuff {
+position: absolute;
 margin-left: 88%;
-margin-top: 30%;
-position: relative;
+margin-top: 75%;
 background: #211E1E;
 }
 
 #contact {
-margin-top: -225%;
+position: absolute;
+bottom: 42%;
 margin-left: 45%;
 background: #211E1E;
 }
