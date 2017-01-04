@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  width: 107%;
+  width: 116%;
   height: 15%;
   background-color: #808084;
   margin-top: -20px;
@@ -12,17 +12,18 @@ header {
 
 }
 h1 {
-  margin-top: 2%;
-  margin-left: 34%;
+  margin-top: 4%;
+  margin-left: 15%;
   display: inline-block;
   font-family: 'Architects Daughter', cursive;
-  font-size: 397%;
+  font-size: 470%;
+  font-style: bold;
 }
 
 h2 {
-  font-size: 140%;
-  font-weight: 50px;
-  margin-left: 36%;
+  font-size: 210%;
+  /*font-weight: 50px;*/
+  margin-left: 38%;
   line-height: 0px;
   margin-bottom: 2%;
   font-family: 'Architects Daughter', cursive;
@@ -43,14 +44,14 @@ h2 {
 
 #about {
 
-  margin-left: 70%;
+  margin-left: 32%;
   margin-top: 30%;
   background: #211E1E;
 
 }
 
 #stuff {
-margin-left: 260%;
+margin-left: 226%;
 margin-top: 30%;
 position: relative;
 background: #211E1E;
@@ -58,7 +59,7 @@ background: #211E1E;
 
 #contact {
 margin-top: -225%;
-margin-left: 450%;
+margin-left: 406%;
 background: #211E1E;
 }
 
