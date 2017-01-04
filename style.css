@@ -42,12 +42,18 @@ h2 {
 
 }
 
+button {
+  color: white;
+  /*font-size: 100%;*/
+}
+
 
 #about {
 
   margin-left: 32%;
   margin-top: 30%;
   background: #211E1E;
+  font-family: 'Architects Daughter', cursive;
 
 }
 
@@ -56,13 +62,16 @@ position: absolute;
 margin-left: 88%;
 margin-top: 75%;
 background: #211E1E;
+font-family: 'Architects Daughter', cursive;
 }
 
 #contact {
-position: absolute;
+position: relative;
+margin-top: 32%;
 bottom: 42%;
 margin-left: 45%;
 background: #211E1E;
+font-family: 'Architects Daughter', cursive;
 }
 
 #description {
