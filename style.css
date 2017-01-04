@@ -1,14 +1,16 @@
 
 body {
   background: #666262;
+
 }
 
 header {
+  position: fixed;
   width: 116%;
-  height: 15%;
+  height: 35%;
   background-color: #808084;
   margin-top: -20px;
-   margin-left: -18px;
+  margin-left: -18px;
 
 }
 h1 {
@@ -49,9 +51,9 @@ button {
 
 
 #about {
-
-  margin-left: 32%;
-  margin-top: 30%;
+  position: absolute;
+  margin-left: 4%;
+  margin-top: 26%;
   background: #211E1E;
   font-family: 'Architects Daughter', cursive;
 
@@ -59,8 +61,8 @@ button {
 
 #stuff {
 position: absolute;
-margin-left: 88%;
-margin-top: 75%;
+margin-left: 80%;
+margin-top: 10%;
 background: #211E1E;
 font-family: 'Architects Daughter', cursive;
 }
