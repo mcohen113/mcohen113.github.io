@@ -59,21 +59,28 @@ button {
 
 }
 
+
+
 #stuff {
 position: absolute;
-margin-left: 80%;
-margin-top: 10%;
+margin-left: 70%;
+margin-top: 27%;
 background: #211E1E;
 font-family: 'Architects Daughter', cursive;
 }
 
 #contact {
 position: relative;
-margin-top: 32%;
+margin-top: 300%;
 bottom: 42%;
-margin-left: 45%;
+margin-left: 205%;
 background: #211E1E;
 font-family: 'Architects Daughter', cursive;
+}
+
+#about:hover, #stuff:hover, #contact:hover {
+    background-color: #006400;
+    opacity: .3;
 }
 
 #description {
