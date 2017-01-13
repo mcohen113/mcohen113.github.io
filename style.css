@@ -51,15 +51,26 @@ button {
 
 
 #about {
+  animation-duration: 3s;
+  animation-name: slidein;
   position: absolute;
   margin-left: 4%;
   margin-top: 26%;
   background: #211E1E;
   font-family: 'Architects Daughter', cursive;
-
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
 
+  to {
+    margin-left: 4%;
+    width: 200px;
+  }
+}
 
 #stuff {
 position: absolute;
