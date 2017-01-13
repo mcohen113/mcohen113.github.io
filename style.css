@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  position: fixed;
+  position: absolute;
   width: 116%;
   height: 35%;
   background-color: #808084;
@@ -46,6 +46,7 @@ h2 {
 
 button {
   color: white;
+  font-size: 150%;
   /*font-size: 100%;*/
 }
 
@@ -73,12 +74,26 @@ button {
 }
 
 #stuff {
+/*animation-duration: 3s;
+animation-name: slidein;*/
 position: absolute;
 margin-left: 70%;
 margin-top: 27%;
 background: #211E1E;
 font-family: 'Architects Daughter', cursive;
 }
+
+/*@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 70%;
+    width: 200px;
+  }
+}*/
 
 #contact {
 position: relative;
@@ -92,7 +107,7 @@ font-family: 'Architects Daughter', cursive;
 #about:hover, #stuff:hover, #contact:hover {
     background-color: #006400;
     opacity: .3;
-    font-size: 150%;
+    font-size: 275%;
 }
 
 #description {
