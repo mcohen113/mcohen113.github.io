@@ -92,6 +92,7 @@ font-family: 'Architects Daughter', cursive;
 #about:hover, #stuff:hover, #contact:hover {
     background-color: #006400;
     opacity: .3;
+    font-size: 150%;
 }
 
 #description {
